@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+
+@layer components {
+
+  .btn-hover:hover {
+    @apply 
+    scale-105
+    transition-all 
+    hover:scale-105
+    hover:ring-4
+    hover:ring-blue-500
+   
+  }
+
+    .frases-card{
+    @apply
+      bg-white 
+      mt-5
+      p-5
+      text-center
+      rounded-lg 
+      shadow-md 
+      border 
+      border-gray-200 
+      min-h-[10vh]  
+      max-h-[40vh]  
+      max-w-[50vh]
+      overflow-y-auto
+    }
+}
